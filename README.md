@@ -100,7 +100,3 @@ The model in this project is using 10% of the original dataset. This is because 
 ## Model Training
 
 This project applied transfer learning to improve the accuracy of the model. The ResNet50 model was used as the base model and fine-tuned on the Amazon Bin Image Dataset.
-
-## License
-
-[License](LICENSE.txt)
