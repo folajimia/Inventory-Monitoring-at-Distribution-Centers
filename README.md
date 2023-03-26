@@ -97,12 +97,6 @@ The dataset can be accessed using the boto3 python library to interact with the 
 
 The model in this project is using 10% of the original dataset. This is because the Amazon Bin Image Dataset is quite large, hence the use of a subset of the data to conserve AWS costs.
 
-### Classes
-
-In this project, the focus is on counting objects in bins, so the classes being used range from 0-5. These classes represent the number of objects in each bin.
-
-![distribution](figs/class_distribution.png)
-
 ## Model Training
 
 This project applied transfer learning to improve the accuracy of the model. The ResNet50 model was used as the base model and fine-tuned on the Amazon Bin Image Dataset.
